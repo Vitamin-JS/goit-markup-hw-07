@@ -77,6 +77,19 @@ body {
   letter-spacing: 0.03pc;
 }
 
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+  border: none;
+  cursor: pointer;
+}
+
+.button:focus {
+  -webkit-box-shadow: 0px 0px 2px 4px #e7e7e7;
+          box-shadow: 0px 0px 2px 4px #e7e7e7;
+  font-size: 18px;
+}
+
 /* Отступы лого */
 .logo-font {
   margin-top: 24px;
@@ -207,7 +220,7 @@ body {
 
 .hero-title {
   margin: 0 0 30px;
-  color: var(--white-bg-color);
+  color: #ffffff;
   font-weight: 700;
   font-size: 44px;
   line-height: 1.4;
@@ -215,7 +228,6 @@ body {
   letter-spacing: 0.06em;
 }
 
-/* Стили заголовка Героя */
 /* Стиль кнопки героя */
 .hero .button {
   height: 50px;
@@ -247,8 +259,7 @@ body {
   padding-bottom: 200px;
   padding-top: 200px;
   background-color: rgba(47, 48, 58, 0.8);
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.8)), to(rgba(47, 48, 58, 0.8))), url(../images/hero-bg.jpg);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/hero-bg.jpg);
+  background-image: linear-gradient to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8), url(../images/hero-bg.jpg);
 }
 
 /* ===============================Модальное окно в Герое=========================== */
@@ -1123,19 +1134,6 @@ footer {
 /* Фокус для лого ===НЕ РАБОТАЕТ ФОКУС ЛОГО ФУТЕРА */
 .focus-text:focus,
 .white-text .logo-font-footer:focus {
-  color: var(--accent-color-blue);
-}
-
-.button {
-  color: var(--white-bg-color);
-  background-color: var(--accent-color-blue);
-  border: none;
-  cursor: pointer;
-}
-
-.button:focus {
-  -webkit-box-shadow: 0px 0px 2px 4px #e7e7e7;
-          box-shadow: 0px 0px 2px 4px #e7e7e7;
-  font-size: 18px;
+  color: #2196f3;
 }
 /*# sourceMappingURL=main.css.map */
