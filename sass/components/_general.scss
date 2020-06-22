@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+  max-width: 1600px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $white-bg-color;
+  color: $primary-text-color;
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+}
+
+/* Общие стили контейнера */
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  /* outline: 1px double rgb(196, 139, 129); */
+}
+
+/* Стили изображений без лишних отступов */
+.image-block {
+  display: block;
+  max-width: 100%;
+}
+
+.logo {
+  color: $secondary-text-color;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &-blue {
+    color: $accent-color-blue;
+  }
+}
+
+// /* Синий цвет лого */
+// .logo-blue {
+//   color: $accent-color-blue;
+// }
+
+/* Шрифт лого в навгации и футере */
+.logo-font,
+.logo-font-footer {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03pc;
+}
