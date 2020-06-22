@@ -15,6 +15,7 @@ footer {
 .footer-bg {
   background-color: $footer-bg-color;
 }
+
 /* Стили адреса футера */
 .address-footer {
   color: $white-bg-color;
@@ -172,7 +173,7 @@ footer {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-  background-image: url(../images/telegram.svg);
+  background-image: url(/images/telegram.svg);
   background-size: contain;
 }
 /*  Нижняя надпись */
