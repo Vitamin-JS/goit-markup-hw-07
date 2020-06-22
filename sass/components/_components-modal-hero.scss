@@ -81,8 +81,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   right: 8px;
   top: 8px;
-  /* transform: translate(50%, -50%); */
-  background-image: url(../images/images-for-modal/close-black.svg);
+  background-image: url(/images/images-for-modal/close-black.svg);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -204,7 +203,7 @@ textarea {
 
 /* Стили ссылки в текстк Чекбокса */
 .policy-link {
-  color: var(--accent-color-blue);
+  color: $accent-color-blue;
 }
 
 /* Пробел в тексте */
@@ -242,7 +241,7 @@ textarea {
 /* Анимация иконок SVG */
 .input-area:focus ~ span > .modal-icon,
 .input-area:not(:placeholder-shown) ~ span > .modal-icon {
-  fill: var(--accent-color-blue);
+  fill: $accent-color-blue;
 }
 
 /* Стили Чекбокса */
@@ -281,9 +280,9 @@ textarea {
 
 /* Стили иконки Чекбокса при состоянии Чекд */
 .checkbox:checked + .checkbox-icon {
-  background-color: var(--accent-color-blue);
+  background-color: $accent-color-blue;
   border: none;
-  background-image: url(../images/images-for-modal/icon-check.svg);
+  background-image: url(/images/images-for-modal/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
   background-position: center;
