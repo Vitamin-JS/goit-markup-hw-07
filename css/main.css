@@ -14,7 +14,24 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  max-width: 1600px;
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    max-width: 480px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  html {
+    max-width: 1200px;
+  }
 }
 
 *,
@@ -41,10 +58,20 @@ body {
 
 /* Общие стили контейнера */
 .container {
-  width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 1px double rgb(196, 139, 129); */
+}
+
+@media screen and (min-width: 481px) {
+  .container {
+    width: 738px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .container {
+    width: 1170px;
+  }
 }
 
 /* Стили изображений без лишних отступов */
