@@ -59,17 +59,6 @@
   }
 }
 
-/* Отступы имен членов команды */
-// .team-list .logo {
-//   margin-top: 0px;
-//   margin-bottom: 10px;
-// }
-
-/* Отступы от фото команды */
-// .team-list .image-block {
-//   margin-bottom: 30px;
-// }
-
 /* Отступы профессий членов команды */
 .proffesion {
   margin-top: 0px;
@@ -91,11 +80,6 @@
     margin-right: 10px;
   }
 }
-
-/* Правый отступ между иконками соцсетей */
-// .our-team-links > li:not(:last-child) {
-//   margin-right: 10px;
-// }
 
 /* Правый марджин нашей команды */
 .team-list:not(:last-child) {
@@ -123,7 +107,7 @@
   }
 }
 
-/* Hover и Focus для иконок соцсетей */
+/* Пример - было в отдельных классах - внес внутрь через & - Hover и Focus для иконок соцсетей */
 // .social-links:hover,
 // .social-links:focus {
 //   fill: var(--white-bg-color);
