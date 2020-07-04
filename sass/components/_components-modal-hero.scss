@@ -81,7 +81,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   right: 8px;
   top: 8px;
-  background-image: url(/images/images-for-modal/close-black.svg);
+  background-image: url(../images/images-for-modal/close-black.svg);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -282,7 +282,7 @@ textarea {
 .checkbox:checked + .checkbox-icon {
   background-color: $accent-color-blue;
   border: none;
-  background-image: url(/images/images-for-modal/icon-check.svg);
+  background-image: url(../images/images-for-modal/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
   background-position: center;
